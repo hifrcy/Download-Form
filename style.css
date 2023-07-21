@@ -1,0 +1,29 @@
+/* style.css */
+
+body {
+  background-color: #111;
+  color: #fff;
+}
+
+.container {
+  padding: 20px;
+}
+
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('background-image.jpg'); /* Remplacez 'background-image.jpg' par le chemin de votre image de fond */
+  opacity: 0.5;
+  z-index: -1;
+}
+
+.title {
+  text-align: center;
+  font-size: 36px;
+  margin-top: 30px;
+}
+
+/* Ajoutez ici les autres styles spécifiques à votre application */
